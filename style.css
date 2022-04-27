@@ -4,11 +4,13 @@
   width: 100%;
 }
 
+/* custom sizes for each article on the page */
 article {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
+/* handles the contact ul specifically */
 #contact_ul {
   list-style: none;
   text-align: center;
@@ -20,6 +22,8 @@ article {
   list-style-type: disc;
 }
 
+
+/* both footer and header are given one sides borders to seperate them from the main body */
 footer {
   border-top: 1px solid #fff;
   margin-bottom: 5px;
@@ -43,6 +47,7 @@ hr {
   width: 50%;
 }
 
+/* .icon is a semantic-ui class, this is too change the color */
 .icon {
   color: #fff;
 }
@@ -53,6 +58,7 @@ img {
   width: 400px;
 }
 
+/* map is an image and required a different size proportion than the portfolio image */
 #map {
   height: 300px;
   width: 500px;
@@ -86,6 +92,7 @@ p {
   font-size: large;
 }
 
+/* the main page effect for all containers */
 .shadow_effect {
   background-color: #000000;
   box-shadow: 0.5em 4px 8px rgba(0,0,0), -0.5em 4px 8px rgba(0,0,0);
