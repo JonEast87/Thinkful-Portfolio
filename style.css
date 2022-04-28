@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* custom sizes for each article on the page */
@@ -52,6 +52,10 @@ hr {
   color: #fff;
 }
 
+.icon:hover {
+  color: gray;
+}
+
 img {
   border-radius: 5%;
   margin-bottom: 100px;
@@ -61,8 +65,8 @@ img {
 
 /* map is an image and required a different size proportion than the portfolio image */
 #map {
-  height: 300px;
-  width: 500px;
+  height: 18.75rem;
+  width: 31.25rem;
 }
 
 main {
@@ -102,4 +106,10 @@ p {
 
 ul, li, ol {
   font-family: 'Roboto', serif;
+}
+
+@media screen and (max-width:1024px) {
+  main {
+    width: 100%;
+  }
 }
